@@ -2,8 +2,8 @@
 // Create the student object
 const student = {
   name: "John",
-  city:"Hyderabad",
-  age:18;
+  age:30,
+  city:"New York";
 };
 
 // Function to get all keys from the object
