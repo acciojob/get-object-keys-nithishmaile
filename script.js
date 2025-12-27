@@ -11,4 +11,4 @@ Object.prototype.getKeys=function(){
 	return Object.keys(this)
 }
 // Testing the function
-console.log(obj.getKeys()); // Output: ["name"]
+console.log(student.getKeys()); // Output: ["name"]
