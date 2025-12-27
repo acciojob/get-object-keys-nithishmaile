@@ -7,9 +7,8 @@ const student = {
 };
 
 // Function to get all keys from the object
-function getKeys(obj) {
-  return Object.keys(obj);
+Object.prototype.getKeys=function(){
+	return Object.keys(this)
 }
-
 // Testing the function
 console.log(getKeys(student)); // Output: ["name"]
